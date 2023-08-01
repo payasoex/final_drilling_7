@@ -1,13 +1,13 @@
 module.exports = {
-    HOST: "localhost",
-    USER: "user_db_bootcamp",
-    PASSWORD: "db_bootcamp",
-    DB: "db_bootcamp",
-    dialect: "postgres",
-    pool: {
-        max: 5,
-        min: 0,
-        acquire: 30000,
-        idle: 10000,
-        },
-    };
+  HOST: 'localhost',
+  USER: 'node_user',
+  PASSWORD: 'node_password',
+  DB: 'db_bootcamp',
+  dialect: 'postgres',
+  pool: {
+    max: 5,
+    min: 0,
+    acquire: 30000,
+    idle: 10000
+  }
+}
